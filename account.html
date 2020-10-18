@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-firestore.js"></script>
+    <script src="homecloudplay.js"></script>
+    <!-- styling -->
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2|Poppins&display=swap" rel="stylesheet">
+    <link href="mainstyle.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="icon" href="images/cloudplayicon.png">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+
+<body class="Poppins custom-black">
+    <!-- start of navigation bar -->
+    <div>
+        <nav class="navbar navbar-expand-md navbar-dark navbar-custom">
+            <a href="#" class="navbar-brand"><img src="images/cloudplay2.png" width="100" /></a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav fullwidth">
+                    <a href="home.html" class="nav-item nav-link">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="" class="nav-item nav-link active">account</a>
+                </div>
+                <div class="navbar-nav">
+                    <input type="submit" onclick="logout()" class="btn btn-primary custom-btn2 btminwidth" id="logout" value="logout">
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- end of navigation bar -->
+
+    <!-- start of main body -->
+    <br/>
+    <div class="container">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3 fit"><img class="profile" src="images/Avengers infinity war poster.jpg" width="100" /></div>
+                <div class="col-sm fit">
+                    <div class="p-3 Baloo_Chettan_2 " style="font-size: large;">
+                        <div class="row">
+                            <div class="col-sm-2 fit"><span class="nav-link">name</span></div>
+                            <div class="col-sm fit"> <span id="user_name" class="nav-link" style="color: whitesmoke;">username </span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-2"><span class="nav-link">email</span></div>
+                            <div class="col-sm"> <span id="user_email" class="nav-link" style="color: whitesmoke;">username </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of main body -->
+
+    <!-- start of footer -->
+    <div class="footer">
+        <div class="container-fluid center1">
+            <div class="row" style="padding: 10px 40px;">
+                <div class="col">
+                    <img src="images/cloudplay2.png" width="100" />
+                    <h6> this site is only for personal and educational use</h6>
+                    <br/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of footer -->
+</body>
+
+</html>

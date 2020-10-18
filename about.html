@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-firestore.js"></script>
+    <script src="homecloudplay.js"></script>
+    <!-- styling -->
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2|Poppins&display=swap" rel="stylesheet">
+    <link href="mainstyle.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="icon" href="images/cloudplayicon.png">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+
+<body class="Poppins">
+    <!-- start of navigation bar -->
+    <div>
+        <nav class="navbar navbar-expand-md navbar-dark navbar-custom">
+            <a href="#" class="navbar-brand"><img src="images/cloudplay2.png" width="100" /></a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav fullwidth">
+                    <a href="home.html" class="nav-item nav-link">Home</a>
+                    <a href="" class="nav-item nav-link active">About</a>
+                    <a href="account.html" class="nav-item nav-link">account</a>
+                </div>
+                <div class="navbar-nav">
+                    <span id="user_email" class="nav-link" style="color: whitesmoke;">username </span>
+                    <input type="submit" onclick="logout()" class="btn btn-primary custom-btn2 btminwidth" id="logout" value="logout">
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- end of navigation bar -->
+    <div>
+        <h1 class="center1 heading fullwidth"> About Site</h1>
+    </div>
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col-sm">
+                <img src="images/cloudplay2.png" width="200" /><img src="images/firebaselogo.png" width="200" />
+            </div>
+            <div class="col-sm">
+                <p class="p-3 Baloo_Chettan_2 " style="font-size: large;">
+                    hi there, this site is for personal and <mark>educational</mark> use.
+                    <br/>learning about what I can do with firebase<img src="images/firebasepng.png" width="20" /> web and making best example of it.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

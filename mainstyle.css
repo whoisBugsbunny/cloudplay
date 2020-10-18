@@ -1,0 +1,146 @@
+/* all */
+
+.Poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.Baloo_Chettan_2 {
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+.fullwidth {
+    width: 100%;
+}
+
+.center1 {
+    text-align: center;
+}
+
+.hr {
+    border-top: 1px solid rgb(155, 155, 155);
+}
+
+
+/* login css */
+
+.cus_body {
+    height: 100%;
+    background: linear-gradient(to right, #31E89F, #00aff4);
+}
+
+.btn-primary.custom-btn {
+    background-color: #00bcd4;
+    border: none;
+}
+
+.btn-primary.custom-btn2 {
+    background-color: #27a393;
+    border: none;
+}
+
+.cus_loginpad {
+    padding: 4% 7%;
+}
+
+.box {
+    background-color: #FAFAFA;
+    width: 40%;
+    min-width: 330px;
+    height: auto;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 45%;
+    padding: 20px 20px;
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+}
+
+.box input {
+    width: 100%;
+    margin: 4px 0;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+/* home css */
+
+.btminwidth {
+    min-width: 120px;
+}
+
+.navbar-custom {
+    background-color: #181818;
+}
+
+.custom-black {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.cropped1 {
+    object-fit: cover;
+    height: 100%;
+}
+
+.heading {
+    background-color: #27a393;
+    color: white;
+    padding: 10px 40px;
+}
+
+.translow {
+    background-color: #27a3929a;
+}
+
+.whiteback {
+    background-color: #FAFAFA;
+    color: #181818;
+}
+
+.headlight {
+    background-color: #00000094;
+}
+
+.profile {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: block;
+    margin: auto;
+}
+
+.fit {
+    min-width: fit-content;
+}
+
+.videosize {
+    min-width: 240px;
+}
+
+.loading {
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://www.skybags.co.in/canvasproject/images/loading2.gif);
+}
+
+
+/* footer */
+
+.footer {
+    bottom: 0;
+}
